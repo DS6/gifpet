@@ -31,7 +31,7 @@ let params = {
 
 💡 You can simply not add any parameters and leave all this empty, it's just in case you want to modify or add more things.
 
-let animated = await Instance.create(image, params) // You can do it without parameters too: await Canvas.create(image)
+let animated = await Instance.create(image, params) // You can do it without parameters too: await Instance.create(image)
 
 return console.log(animated)
 
