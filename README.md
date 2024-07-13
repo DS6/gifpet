@@ -35,5 +35,4 @@ let animated = await Canvas.create(image, params) // You can do it without param
 
 return console.log(animated)
 
-```
 Enjoying life :)
