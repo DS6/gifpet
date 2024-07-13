@@ -18,8 +18,10 @@ Further meme info: https://knowyourmeme.com/memes/pet-the-x-petthe-emotes
 
 `npm i -S gifpet`
 
-```const Instance = require('gifpet');
-const { Canvas } = new Instance();```
+```
+const Instance = require('gifpet');
+const { Canvas } = new Instance();
+```
 
 **💡 You can simply not add any parameters and leave all this empty, it's just in case you want to modify or add more things.**
 
