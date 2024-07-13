@@ -20,8 +20,8 @@ Further meme info: https://knowyourmeme.com/memes/pet-the-x-petthe-emotes
 
 
 ```
-const { Canvas } = require('gifpet');
-const Instance = new Canvas();
+const Instance = require('gifpet');
+const { Canvas } = new Instance();
 
 let params = {
     resolution: 128, // The width (or height) of the generated gif
@@ -31,7 +31,7 @@ let params = {
 
 💡 You can simply not add any parameters and leave all this empty, it's just in case you want to modify or add more things.
 
-let animated = await Instance.create(image, params) // You can do it without parameters too: await Instance.create(image)
+let animated = await Canvas.create(image, params) // You can do it without parameters too: await Canvas.create(image)
 
 return console.log(animated)
 
