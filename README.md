@@ -14,11 +14,11 @@ Further meme info: https://knowyourmeme.com/memes/pet-the-x-petthe-emotes
 
 ![Input](/example/input.png) → ![Output](/example/output.gif)
 
-## Usage
-
-`npm i -S gifpet`
+## Installation & Use
 
 ```Javascript
+npm i -S gifpet
+
 const Instance = require('gifpet');
 const { Canvas } = new Instance();
 ```
