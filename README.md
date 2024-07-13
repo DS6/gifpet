@@ -19,17 +19,18 @@ Further meme info: https://knowyourmeme.com/memes/pet-the-x-petthe-emotes
 `npm i -S gifpet`
 
 
-```
-const Instance = require('gifpet');
-const { Canvas } = new Instance();
+`const Instance = require('gifpet');
+const { Canvas } = new Instance();`
 
-let params = {
+##💡 You can simply not add any parameters and leave all this empty, it's just in case you want to modify or add more things.
+
+```let params = {
     resolution: 128, // The width (or height) of the generated gif
     delay: 20, // Delay between each frame in milliseconds. Defaults to 20.
     backgroundColor: "red", // Other values could be the string "rgba(123, 233, 0, 0.5)". Defaults to null - i.e. transparent.
-}
+}```
 
-💡 You can simply not add any parameters and leave all this empty, it's just in case you want to modify or add more things.
+let image = 'https://vangh.org/schema/image/image.png'
 
 let animated = await Canvas.create(image, params) // You can do it without parameters too: await Canvas.create(image)
 
