@@ -18,7 +18,7 @@ Further meme info: https://knowyourmeme.com/memes/pet-the-x-petthe-emotes
 
 `npm i -S gifpet`
 
-```
+```Javascript
 const Instance = require('gifpet');
 const { Canvas } = new Instance();
 ```
