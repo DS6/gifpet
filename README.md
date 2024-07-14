@@ -6,9 +6,11 @@ Given a square avatar, generate a petting gif (known as "petpet" or "pet the").
 
 The avatar will bounce up and down to simulate the petting.
 
-Inspired by benisland (https://benisland.neocities.org/petpet/).
+### Inspired by benisland
+> [@benisland](https://benisland.neocities.org/petpet/)
 
-Further meme info: https://knowyourmeme.com/memes/pet-the-x-petthe-emotes
+### Further meme info
+> [@Info](https://knowyourmeme.com/memes/pet-the-x-petthe-emotes)
 
 ## Demo
 
