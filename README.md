@@ -2,7 +2,7 @@
 
 > You can get it from NPM [@gifpet](https://www.npmjs.com/package/gifpet).
 
-Given a square avatar, generate a petting gif (known as "petpet" or "pet the").
+Given a square avatar, generate a petting gif **(known as "petpet" or "pet the")**.
 
 The avatar will bounce up and down to simulate the petting.
 
