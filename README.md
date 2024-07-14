@@ -1,6 +1,7 @@
-# gifpet
+## GIFPET
 
-https://www.npmjs.com/package/gifpet
+> https://www.npmjs.com/package/gifpet
+> You can get it from NPM [@gifpet](https://www.npmjs.com/package/gifpet).
 
 Given a square avatar, generate a petting gif (known as "petpet" or "pet the").
 
