@@ -35,7 +35,7 @@ let params = {
 }
 ```
 
-let image = 'https://vangh.org/schema/image/image.png' > It also works by simply using a buffer, instead of a url.
+let image = 'https://vangh.org/schema/image/image.png' `It also works by simply using a buffer, instead of a url.`
 
 let animated = await Canvas.create(image, params) **// You can do it without parameters too: await Canvas.create(image)**
 
