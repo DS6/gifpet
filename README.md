@@ -34,8 +34,7 @@ let params = {
     backgroundColor: "red", // Other values could be the string "rgba(123, 233, 0, 0.5)". Defaults to null - i.e. transparent.
 }
 ```
-
-let image = 'https://vangh.org/schema/image/image.png' 
+- let image = 'https://vangh.org/schema/image/image.png' 
 > It also works by simply using a buffer, instead of a url.
 
 **let animated = await Canvas.create(image, params)** 
